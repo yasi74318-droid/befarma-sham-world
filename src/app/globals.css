@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background: radial-gradient(circle at top right, #fdf2f8, #f5f3ff 45%, #fffbeb 100%);
+  color: #1f2937;
+  min-height: 100vh;
+}
+.glass {
+  background: rgba(255, 255, 255, 0.84);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(216, 180, 254, 0.55);
+  box-shadow: 0 12px 32px rgba(107, 33, 168, 0.08);
+}
